@@ -493,7 +493,81 @@ footer {
     margin-left: 20px;
     margin-bottom: 50px;
 }
+/* ==========================================
+   ESTILOS ESPECÍFICOS DA PÁGINA DE PROJETOS
+   ========================================== */
+.projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    margin: 40px 0;
+}
 
+.project-card {
+    align-items: flex-start;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-icon-blue {
+    font-size: 2rem;
+    color: #58a6ff;
+    margin-bottom: 5px;
+}
+
+.project-icon-green {
+    font-size: 2rem;
+    color: #3fb950;
+    margin-bottom: 5px;
+}
+
+.project-icon-red {
+    font-size: 2rem;
+    color: #f85149;
+    margin-bottom: 5px;
+}
+
+.project-card-title {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+.project-card-subtitle {
+    font-size: 0.85rem;
+    color: #58a6ff;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.project-card-desc {
+    font-size: 0.9rem;
+    color: #8b949e;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.project-links {
+    margin-top: auto;
+}
+
+.project-link-btn {
+    display: inline-block;
+    background-color: #21262d;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.project-link-btn:hover {
+    background-color: #30363d;
+    color: #ffffff;
+    border-color: #58a6ff;
+}
 
 
 
