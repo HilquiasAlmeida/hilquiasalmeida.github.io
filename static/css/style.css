@@ -343,3 +343,95 @@ footer {
     .hero h1 { font-size: 2.2rem; }
     .nav-links { display: none; } /* Pode ser expandido futuramente com menu hambúrguer */
 }
+
+/* ==========================================
+   ESTILOS ESPECÍFICOS DA PÁGINA SOBRE (ABOUT)
+   ========================================== */
+.about-page-section {
+    padding-top: 140px;
+    padding-bottom: 80px;
+}
+
+.about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about-title {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+}
+
+.about-text {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.about-text.secondary-text {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 40px;
+    color: #8b949e;
+}
+
+.media-box {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.responsive-media {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid #30363d;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    display: block;
+}
+
+.media-caption {
+    font-size: 0.85rem;
+    color: #8b949e;
+    margin-top: 10px;
+}
+
+.section-subtitle {
+    color: #58a6ff;
+    font-size: 1.8rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.video-section-title {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporção 16:9 */
+    height: 0;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 1px solid #30363d;
+    background: #161b22;
+}
+
+.responsive-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.action-container {
+    text-align: center;
+    margin-top: 60px;
+}
