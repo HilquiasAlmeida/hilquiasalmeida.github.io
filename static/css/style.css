@@ -435,3 +435,52 @@ footer {
     text-align: center;
     margin-top: 60px;
 }
+
+/* ==========================================
+   CUSTOMIZAÇÃO PROFISSIONAL DO GOOGLE TRANSLATE
+   ========================================== */
+
+/* Esconde o texto redundante "Selecione o idioma" do Google */
+.goog-te-gadget {
+    font-size: 0 !important;
+    color: transparent !important;
+}
+
+.goog-te-gadget span {
+    display: none !important;
+}
+
+/* Transforma o select feio em um botão moderno estilo GitHub */
+#google_translate_element select {
+    background-color: #21262d !important;
+    color: #c9d1d9 !important;
+    border: 1px solid #30363d !important;
+    padding: 6px 12px !important;
+    border-radius: 6px !important;
+    font-size: 0.85rem !important;
+    font-weight: 500 !important;
+    cursor: pointer !important;
+    outline: none !important;
+    transition: all 0.2s ease !important;
+}
+
+#google_translate_element select:hover {
+    border-color: #58a6ff !important;
+    background-color: #30363d !important;
+    color: #ffffff !important;
+}
+
+/* Remove aquela barra cinza irritante que o Google empurra no topo da página */
+body {
+    top: 0 !important;
+}
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+
+/* Ajusta o ícone ou espaçamento do container do tradutor no menu */
+#google_translate_element {
+    display: inline-block;
+    vertical-align: middle;
+}
