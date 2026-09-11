@@ -435,6 +435,67 @@ footer {
     text-align: center;
     margin-top: 60px;
 }
+/* ==========================================
+   ESTILOS ESPECÍFICOS DA PÁGINA ACADÊMICA
+   ========================================== */
+.academics-grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    margin-bottom: 40px;
+}
+
+.academic-card {
+    align-items: flex-start;
+    text-align: left;
+}
+
+.academic-icon-blue {
+    font-size: 2rem;
+    color: #58a6ff;
+    margin-bottom: 5px;
+}
+
+.academic-icon-green {
+    font-size: 2rem;
+    color: #3fb950;
+    margin-bottom: 5px;
+}
+
+.academic-card-title {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.academic-card-subtitle-blue {
+    font-size: 0.85rem;
+    color: #58a6ff;
+    font-weight: 600;
+}
+
+.academic-card-subtitle-green {
+    font-size: 0.85rem;
+    color: #3fb950;
+    font-weight: 600;
+}
+
+.academic-card-desc {
+    font-size: 0.9rem;
+    color: #8b949e;
+    margin-top: 8px;
+}
+
+.about-text-margin {
+    margin-bottom: 30px;
+}
+
+.custom-list {
+    color: #c9d1d9;
+    line-height: 1.8;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+
+
 
 /* ==========================================
    CUSTOMIZAÇÃO PROFISSIONAL DO GOOGLE TRANSLATE
