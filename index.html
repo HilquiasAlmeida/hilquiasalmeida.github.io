@@ -4,32 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hilquias Almeida | Tech Portfolio</title>
+    <!-- Favicon com a águia (Rota Dev) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🦅</text></svg>">
+    
     <!-- Link para o CSS externo -->
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Ícones (FontAwesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Hilquias S. Almeida</h1>
-        <p class="subtitle">Computer Engineer | Full Stack & DevOps | Python • Java • PostgreSQL</p>
-        
-        <div class="skills">
-            <span class="tag">Python</span>
-            <span class="tag">Java</span>
-            <span class="tag">COBOL</span>
-            <span class="tag">PostgreSQL</span>
-            <span class="tag">DevOps</span>
-            <span class="tag">Rota Dev 🦅</span>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Hilquias<span>Almeida</span> 🦅</div>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Stack</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <div class="hero-content">
+            <span class="badge">Computer Engineer & Full Stack DevOps</span>
+            <h1>Dr. Hilquias S. Almeida</h1>
+            <p class="tagline">"High-altitude vision, precise code."</p>
+            <p class="bio">Engenheiro de Computação especialista em desenvolvimento Full Stack e DevOps, criador da <strong>Rota Dev 🦅</strong>. Focado em arquiteturas robustas e soluções eficientes usando Python, Java, COBOL e PostgreSQL.</p>
+            <div class="hero-btns">
+                <a href="https://www.linkedin.com/in/dr-hilquias/" target="_blank" class="btn primary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/HilquiasAlmeida" target="_blank" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
+            </div>
         </div>
+    </section>
 
-        <p>Bem-vindo ao meu portfólio oficial! Em breve, todos os meus principais projetos estarão listados por aqui.</p>
-
-        <div style="margin-top: 30px;">
-            <a href="https://www.linkedin.com/in/dr-hilquias/" target="_blank" class="btn">LinkedIn</a>
-            <a href="https://github.com/HilquiasAlmeida" target="_blank" class="btn">GitHub</a>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Stack & Tecnologias</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fab fa-python"></i> <span>Python</span></div>
+            <div class="skill-card"><i class="fab fa-java"></i> <span>Java</span></div>
+            <div class="skill-card"><i class="fas fa-server"></i> <span>COBOL</span></div>
+            <div class="skill-card"><i class="fas fa-database"></i> <span>PostgreSQL</span></div>
+            <div class="skill-card"><i class="fas fa-cogs"></i> <span>DevOps & CI/CD</span></div>
+            <div class="skill-card"><i class="fas fa-code-branch"></i> <span>Git & GitHub</span></div>
         </div>
-    </div>
+    </section>
 
-    <!-- Link para o JS externo -->
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projetos em Destaque</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div>
+                    <h3>Repositórios & Open Source</h3>
+                    <p>Acesse meu perfil oficial no GitHub para explorar códigos-fonte, ferramentas e contribuições técnicas.</p>
+                </div>
+                <a href="https://github.com/HilquiasAlmeida?tab=repositories" target="_blank" class="project-link">Ver repositórios <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="project-card">
+                <div>
+                    <h3>Rota Dev 🦅</h3>
+                    <p>Ecossistema técnico focado em engenharia de software de alta performance, automação e visão analítica avançada.</p>
+                </div>
+                <span class="badge-mini">Ecossistema Ativo</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact">
+        <div class="footer-content">
+            <h3>Vamos construir algo incrível juntos?</h3>
+            <p>São Paulo, SP • Atlantks Tigers</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/dr-hilquias/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/HilquiasAlmeida" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/dr.hilquias/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/srhilquias" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 Hilquias S. Almeida. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script externo -->
     <script src="js/script.js"></script>
 </body>
 </html>
