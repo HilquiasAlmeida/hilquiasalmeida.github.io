@@ -3,99 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hilquias Almeida | Tech Portfolio</title>
-    <!-- Favicon com a águia (Rota Dev) -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🦅</text></svg>">
+    <title>Dr. Hilquias Almeida | Home</title>
     
-    <!-- Link para o CSS externo -->
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon customizado representando o Grifo de Rüppell (Alta Altitude / Voo) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2785%27>🏔️</text></svg>">
     
-    <!-- Ícones (FontAwesome) -->
+    <!-- Caminho para o CSS global -->
+    <link rel="stylesheet" href="static/css/style.css">
+    
+    <!-- Ícones externos (FontAwesome) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navbar -->
+    <!-- Navbar Global -->
     <header>
         <nav class="navbar">
-            <div class="logo">Hilquias<span>Almeida</span> 🦅</div>
+            <!-- Atualizado para refletir o Grifo de Rüppell / Altitude -->
+            <div class="logo">Hilquias<span>Almeida</span> 🏔️🦅</div>
             <ul class="nav-links">
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#skills">Stack</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#contact">Contato</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="templates/about/about.html">Sobre</a></li>
+                <li><a href="templates/academics/academics.html">Acadêmico</a></li>
+                <li><a href="templates/projects/my-projects.html">Projetos</a></li>
+                <li><a href="templates/contacts/contacts.html">Contato</a></li>
+                <!-- Widget do Tradutor -->
+                <li><div id="google_translate_element"></div></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="about">
+    <!-- Hero / Home Section -->
+    <section class="hero">
         <div class="hero-content">
-            <!-- Sua imagem em formato circular -->
             <div class="profile-container">
-                <img src="image/avatar.jpg" alt="Hilquias Almeida" class="profile-pic">
+                <img src="static/images/home/avatar.jpg" alt="Dr. Hilquias S. Almeida" class="profile-pic">
             </div>
-    
             <span class="badge">Computer Engineer & Full Stack DevOps</span>
             <h1>Dr. Hilquias S. Almeida</h1>
             <p class="tagline">"High-altitude vision, precise code."</p>
-            <p class="bio">Engenheiro de Computação especialista em desenvolvimento Full Stack e DevOps, criador da <strong>Rota Dev 🦅</strong>. Focado em arquiteturas robustas e soluções eficientes usando Python, Java, COBOL e PostgreSQL.</p>
+            <p class="bio">Engenheiro de Computação especialista em ecossistemas de alta performance, automação e arquiteturas robustas. Inspirado pela precisão e altitude do <strong>Grifo de Rüppell (Rota Dev)</strong>.</p>
             <div class="hero-btns">
-                <a href="https://www.linkedin.com/in/dr-hilquias/" target="_blank" class="btn primary"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href="https://github.com/HilquiasAlmeida" target="_blank" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
+                <a href="templates/projects/my-projects.html" class="btn primary">Explorar Projetos <i class="fas fa-arrow-right"></i></a>
+                <a href="templates/contacts/contacts.html" class="btn secondary">Entrar em Contato</a>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-        <h2>Stack & Tecnologias</h2>
-        <div class="skills-grid">
-            <div class="skill-card"><i class="fab fa-python"></i> <span>Python</span></div>
-            <div class="skill-card"><i class="fab fa-java"></i> <span>Java</span></div>
-            <div class="skill-card"><i class="fas fa-server"></i> <span>COBOL</span></div>
-            <div class="skill-card"><i class="fas fa-database"></i> <span>PostgreSQL</span></div>
-            <div class="skill-card"><i class="fas fa-cogs"></i> <span>DevOps & CI/CD</span></div>
-            <div class="skill-card"><i class="fas fa-code-branch"></i> <span>Git & GitHub</span></div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-        <h2>Projetos em Destaque</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <div>
-                    <h3>Repositórios & Open Source</h3>
-                    <p>Acesse meu perfil oficial no GitHub para explorar códigos-fonte, ferramentas e contribuições técnicas.</p>
-                </div>
-                <a href="https://github.com/HilquiasAlmeida?tab=repositories" target="_blank" class="project-link">Ver repositórios <i class="fas fa-arrow-right"></i></a>
-            </div>
-            <div class="project-card">
-                <div>
-                    <h3>Rota Dev 🦅</h3>
-                    <p>Ecossistema técnico focado em engenharia de software de alta performance, automação e visão analítica avançada.</p>
-                </div>
-                <span class="badge-mini">Ecossistema Ativo</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer / Contact -->
-    <footer id="contact">
-        <div class="footer-content">
-            <h3>Vamos construir algo incrível juntos?</h3>
-            <p>São Paulo, SP • Atlantks Tigers</p>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/dr-hilquias/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/HilquiasAlmeida" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.instagram.com/dr.hilquias/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://twitter.com/srhilquias" target="_blank"><i class="fab fa-twitter"></i></a>
-            </div>
-            <p class="copyright">&copy; 2026 Hilquias S. Almeida. Todos os direitos reservados.</p>
-        </div>
-    </footer>
-
-    <!-- Script externo -->
-    <script src="js/script.js"></script>
+    <!-- Scripts Globais -->
+    <script src="static/js/script.js"></script>
+    <script src="static/js/translate.js"></script>
 </body>
 </html>
