@@ -3,7 +3,8 @@ console.log("%c🦅 Rota Dev - Portfólio de Dr. Hilquias Almeida carregado com 
 
 // Animação de Surgimento Suave (Fade-in ao rolar a página)
 document.addEventListener("DOMContentLoaded", function() {
-    const elementos = document.querySelectorAll('.hero-content, .section, .skill-card, .project-card');
+    // Seleciona todos os elementos que vão animar (incluindo a foto de perfil)
+    const elementos = document.querySelectorAll('.profile-container, .hero-content, .section, .skill-card, .project-card');
 
     // Configuração inicial para deixar os elementos invisíveis antes de animar
     elementos.forEach(el => {
